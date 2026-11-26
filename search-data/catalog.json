@@ -1,0 +1,3062 @@
+{
+  "gameVersion": "v160.4",
+  "blocks": {
+    "additive-reconstructor": {
+      "name": "数增级单位重构工厂",
+      "materials": {
+        "copper": 200,
+        "lead": 120,
+        "silicon": 90
+      },
+      "itemInputs": [
+        "graphite",
+        "silicon"
+      ],
+      "units": [
+        "atrax",
+        "horizon",
+        "mace",
+        "minke",
+        "oxynoe",
+        "poly",
+        "pulsar"
+      ]
+    },
+    "advanced-launch-pad": {
+      "name": "发射台",
+      "materials": {
+        "copper": 350,
+        "lead": 300,
+        "silicon": 250,
+        "titanium": 200
+      },
+      "liquidInputs": [
+        "oil"
+      ]
+    },
+    "afflict": {
+      "name": "劫难",
+      "materials": {
+        "graphite": 250,
+        "oxide": 40,
+        "silicon": 200,
+        "surge-alloy": 100
+      }
+    },
+    "air-factory": {
+      "name": "空军工厂",
+      "materials": {
+        "copper": 60,
+        "lead": 70,
+        "silicon": 60
+      },
+      "itemInputs": [
+        "lead",
+        "silicon"
+      ],
+      "units": [
+        "flare",
+        "mono"
+      ]
+    },
+    "arc": {
+      "name": "电弧",
+      "materials": {
+        "copper": 50,
+        "lead": 50
+      }
+    },
+    "arkycite-floor": {
+      "name": "芳油"
+    },
+    "arkyic-boulder": {
+      "name": "芳石块"
+    },
+    "arkyic-stone": {
+      "name": "芳石"
+    },
+    "arkyic-vent": {
+      "name": "芳石喷口"
+    },
+    "arkyic-wall": {
+      "name": "芳石墙"
+    },
+    "armored-conveyor": {
+      "name": "装甲传送带",
+      "materials": {
+        "metaglass": 1,
+        "plastanium": 1,
+        "thorium": 1
+      }
+    },
+    "armored-duct": {
+      "name": "装甲管道",
+      "materials": {
+        "beryllium": 2,
+        "tungsten": 1
+      }
+    },
+    "atmospheric-concentrator": {
+      "name": "大气收集器",
+      "materials": {
+        "beryllium": 180,
+        "oxide": 60,
+        "silicon": 150
+      },
+      "liquidOutputs": [
+        "nitrogen"
+      ]
+    },
+    "basalt": {
+      "name": "玄武岩"
+    },
+    "basalt-boulder": {
+      "name": "玄武岩块"
+    },
+    "basalt-vent": {
+      "name": "玄武岩喷口"
+    },
+    "basic-assembler-module": {
+      "name": "基本装配厂模块",
+      "materials": {
+        "carbide": 300,
+        "oxide": 250,
+        "phase-fabric": 400,
+        "thorium": 500
+      }
+    },
+    "battery": {
+      "name": "电池",
+      "materials": {
+        "copper": 5,
+        "lead": 20
+      }
+    },
+    "battery-large": {
+      "name": "大型电池",
+      "materials": {
+        "lead": 50,
+        "silicon": 30,
+        "titanium": 20
+      }
+    },
+    "beam-link": {
+      "name": "激光连接器",
+      "materials": {
+        "beryllium": 250,
+        "carbide": 75,
+        "oxide": 150,
+        "phase-fabric": 75,
+        "silicon": 250,
+        "surge-alloy": 75
+      }
+    },
+    "beam-node": {
+      "name": "激光节点",
+      "materials": {
+        "beryllium": 8
+      }
+    },
+    "beam-tower": {
+      "name": "激光塔",
+      "materials": {
+        "beryllium": 30,
+        "oxide": 10,
+        "silicon": 10
+      }
+    },
+    "beryllic-boulder": {
+      "name": "铍石块"
+    },
+    "beryllic-stone": {
+      "name": "铍石"
+    },
+    "beryllic-stone-wall": {
+      "name": "铍石墙"
+    },
+    "beryllium-wall": {
+      "name": "铍墙",
+      "materials": {
+        "beryllium": 6
+      }
+    },
+    "beryllium-wall-large": {
+      "name": "大型铍墙",
+      "materials": {
+        "beryllium": 24
+      }
+    },
+    "blast-door": {
+      "name": "防爆闸门",
+      "materials": {
+        "silicon": 24,
+        "tungsten": 24
+      }
+    },
+    "blast-drill": {
+      "name": "爆破钻头",
+      "materials": {
+        "copper": 65,
+        "silicon": 60,
+        "thorium": 75,
+        "titanium": 50
+      }
+    },
+    "blast-mixer": {
+      "name": "爆炸物混合器",
+      "materials": {
+        "lead": 30,
+        "titanium": 20
+      },
+      "itemInputs": [
+        "pyratite",
+        "spore-pod"
+      ],
+      "itemOutputs": [
+        "blast-compound"
+      ]
+    },
+    "bluemat": {
+      "name": "蓝地垫"
+    },
+    "boulder": {
+      "name": "石块"
+    },
+    "breach": {
+      "name": "撕裂",
+      "materials": {
+        "beryllium": 150,
+        "graphite": 125,
+        "silicon": 150
+      }
+    },
+    "bridge-conduit": {
+      "name": "导管桥",
+      "materials": {
+        "graphite": 4,
+        "metaglass": 8
+      }
+    },
+    "bridge-conveyor": {
+      "name": "传送带桥",
+      "materials": {
+        "copper": 6,
+        "lead": 6
+      }
+    },
+    "build-tower": {
+      "name": "建造塔",
+      "materials": {
+        "oxide": 40,
+        "silicon": 150,
+        "thorium": 60
+      },
+      "liquidInputs": [
+        "nitrogen"
+      ]
+    },
+    "canvas": {
+      "name": "画板",
+      "materials": {
+        "beryllium": 10,
+        "silicon": 10
+      }
+    },
+    "carbide-crucible": {
+      "name": "碳化物坩埚",
+      "materials": {
+        "oxide": 60,
+        "thorium": 150,
+        "tungsten": 110
+      },
+      "itemInputs": [
+        "graphite",
+        "tungsten"
+      ],
+      "itemOutputs": [
+        "carbide"
+      ]
+    },
+    "carbide-wall": {
+      "name": "碳化物墙",
+      "materials": {
+        "carbide": 6,
+        "thorium": 6
+      }
+    },
+    "carbide-wall-large": {
+      "name": "大型碳化物墙",
+      "materials": {
+        "carbide": 24,
+        "thorium": 24
+      }
+    },
+    "carbon-boulder": {
+      "name": "碳石块"
+    },
+    "carbon-stone": {
+      "name": "碳石"
+    },
+    "carbon-vent": {
+      "name": "碳石喷口"
+    },
+    "carbon-wall": {
+      "name": "碳石墙"
+    },
+    "char": {
+      "name": "焦土"
+    },
+    "character-overlay": {
+      "name": "标识贴片"
+    },
+    "character-overlay-white": {
+      "name": "标识贴片 (白色)"
+    },
+    "chemical-combustion-chamber": {
+      "name": "化学燃烧室",
+      "materials": {
+        "graphite": 40,
+        "oxide": 40,
+        "silicon": 30,
+        "tungsten": 20
+      },
+      "liquidInputs": [
+        "arkycite",
+        "ozone"
+      ]
+    },
+    "cliff": {
+      "name": "悬崖"
+    },
+    "cliff-crusher": {
+      "name": "墙壁粉碎机",
+      "materials": {
+        "beryllium": 20,
+        "graphite": 25
+      },
+      "itemOutputs": [
+        "sand"
+      ]
+    },
+    "coal-centrifuge": {
+      "name": "煤炭离心机",
+      "materials": {
+        "graphite": 40,
+        "lead": 30,
+        "titanium": 20
+      },
+      "itemOutputs": [
+        "coal"
+      ],
+      "liquidInputs": [
+        "oil"
+      ]
+    },
+    "colored-floor": {
+      "name": "染色地板"
+    },
+    "colored-wall": {
+      "name": "染色墙壁"
+    },
+    "combustion-generator": {
+      "name": "火力发电机",
+      "materials": {
+        "copper": 25,
+        "lead": 15
+      }
+    },
+    "conduit": {
+      "name": "导管",
+      "materials": {
+        "metaglass": 1
+      }
+    },
+    "constructor": {
+      "name": "构筑器",
+      "materials": {
+        "beryllium": 75,
+        "silicon": 50,
+        "tungsten": 40
+      }
+    },
+    "container": {
+      "name": "容器",
+      "materials": {
+        "titanium": 100
+      }
+    },
+    "conveyor": {
+      "name": "传送带",
+      "materials": {
+        "copper": 1
+      }
+    },
+    "copper-wall": {
+      "name": "铜墙",
+      "materials": {
+        "copper": 6
+      }
+    },
+    "copper-wall-large": {
+      "name": "大型铜墙",
+      "materials": {
+        "copper": 24
+      }
+    },
+    "core-acropolis": {
+      "name": "卫城核心",
+      "materials": {
+        "beryllium": 6000,
+        "carbide": 3000,
+        "oxide": 3000,
+        "silicon": 5000,
+        "tungsten": 5000
+      }
+    },
+    "core-bastion": {
+      "name": "城堡核心",
+      "materials": {
+        "beryllium": 800,
+        "graphite": 1000,
+        "silicon": 1000
+      }
+    },
+    "core-citadel": {
+      "name": "堡垒核心",
+      "materials": {
+        "beryllium": 4000,
+        "oxide": 1000,
+        "silicon": 4000,
+        "tungsten": 3000
+      }
+    },
+    "core-foundation": {
+      "name": "次代核心",
+      "materials": {
+        "copper": 3000,
+        "lead": 3000,
+        "silicon": 2000
+      }
+    },
+    "core-nucleus": {
+      "name": "终代核心",
+      "materials": {
+        "copper": 8000,
+        "lead": 8000,
+        "silicon": 5000,
+        "thorium": 4000
+      }
+    },
+    "core-shard": {
+      "name": "初代核心",
+      "materials": {
+        "copper": 1000,
+        "lead": 800
+      }
+    },
+    "core-zone": {
+      "name": "核心区"
+    },
+    "crater-stone": {
+      "name": "陨石坑"
+    },
+    "cryofluid-mixer": {
+      "name": "冷冻液混合器",
+      "materials": {
+        "lead": 65,
+        "silicon": 40,
+        "titanium": 60
+      },
+      "itemInputs": [
+        "titanium"
+      ],
+      "liquidInputs": [
+        "water"
+      ],
+      "liquidOutputs": [
+        "cryofluid"
+      ]
+    },
+    "crystal-blocks": {
+      "name": "风化晶体"
+    },
+    "crystal-cluster": {
+      "name": "水晶簇"
+    },
+    "crystal-floor": {
+      "name": "晶石地板"
+    },
+    "crystal-orbs": {
+      "name": "晶石球"
+    },
+    "crystalline-boulder": {
+      "name": "晶石块"
+    },
+    "crystalline-stone": {
+      "name": "晶石"
+    },
+    "crystalline-stone-wall": {
+      "name": "晶石墙"
+    },
+    "crystalline-vent": {
+      "name": "晶石喷口"
+    },
+    "cultivator": {
+      "name": "培养机",
+      "materials": {
+        "copper": 25,
+        "lead": 25,
+        "silicon": 10
+      },
+      "itemOutputs": [
+        "spore-pod"
+      ],
+      "liquidInputs": [
+        "water"
+      ]
+    },
+    "cyanogen-synthesizer": {
+      "name": "氰合成机",
+      "materials": {
+        "beryllium": 140,
+        "carbide": 80,
+        "oxide": 40,
+        "silicon": 120
+      },
+      "itemInputs": [
+        "graphite"
+      ],
+      "liquidInputs": [
+        "arkycite"
+      ],
+      "liquidOutputs": [
+        "cyanogen"
+      ]
+    },
+    "cyclone": {
+      "name": "气旋",
+      "materials": {
+        "copper": 200,
+        "plastanium": 80,
+        "titanium": 125
+      }
+    },
+    "dacite": {
+      "name": "安山岩"
+    },
+    "dacite-boulder": {
+      "name": "安山岩块"
+    },
+    "dacite-wall": {
+      "name": "安山岩墙"
+    },
+    "dark-metal": {
+      "name": "暗金属"
+    },
+    "dark-panel-1": {
+      "name": "暗面板 1"
+    },
+    "dark-panel-2": {
+      "name": "暗面板 2"
+    },
+    "dark-panel-3": {
+      "name": "暗面板 3"
+    },
+    "dark-panel-4": {
+      "name": "暗面板 4"
+    },
+    "dark-panel-5": {
+      "name": "暗面板 5"
+    },
+    "dark-panel-6": {
+      "name": "暗面板 6"
+    },
+    "darksand": {
+      "name": "黑沙"
+    },
+    "darksand-tainted-water": {
+      "name": "黑沙污水"
+    },
+    "darksand-water": {
+      "name": "黑沙浅滩"
+    },
+    "deconstructor": {
+      "name": "大型解构器",
+      "materials": {
+        "beryllium": 250,
+        "carbide": 50,
+        "oxide": 100,
+        "silicon": 250
+      }
+    },
+    "deep-tainted-water": {
+      "name": "深污水"
+    },
+    "deep-water": {
+      "name": "深水"
+    },
+    "dense-red-stone": {
+      "name": "高密红石"
+    },
+    "differential-generator": {
+      "name": "温差发电机",
+      "materials": {
+        "copper": 70,
+        "lead": 100,
+        "metaglass": 50,
+        "silicon": 65,
+        "titanium": 50
+      },
+      "itemInputs": [
+        "pyratite"
+      ],
+      "liquidInputs": [
+        "cryofluid"
+      ]
+    },
+    "diffuse": {
+      "name": "扩散",
+      "materials": {
+        "beryllium": 150,
+        "graphite": 200,
+        "silicon": 200,
+        "tungsten": 50
+      }
+    },
+    "diode": {
+      "name": "二极管",
+      "materials": {
+        "metaglass": 10,
+        "plastanium": 5,
+        "silicon": 10
+      }
+    },
+    "dirt": {
+      "name": "泥土"
+    },
+    "dirt-wall": {
+      "name": "泥土墙"
+    },
+    "disassembler": {
+      "name": "解离机",
+      "materials": {
+        "plastanium": 40,
+        "silicon": 150,
+        "thorium": 80,
+        "titanium": 100
+      },
+      "itemInputs": [
+        "scrap"
+      ],
+      "itemOutputs": [
+        "graphite",
+        "sand",
+        "thorium",
+        "titanium"
+      ],
+      "liquidInputs": [
+        "slag"
+      ]
+    },
+    "disperse": {
+      "name": "驱离",
+      "materials": {
+        "beryllium": 350,
+        "oxide": 50,
+        "silicon": 200,
+        "thorium": 50
+      }
+    },
+    "distributor": {
+      "name": "分配器",
+      "materials": {
+        "copper": 4,
+        "lead": 4
+      }
+    },
+    "door": {
+      "name": "门",
+      "materials": {
+        "silicon": 4,
+        "titanium": 6
+      }
+    },
+    "door-large": {
+      "name": "大门",
+      "materials": {
+        "silicon": 16,
+        "titanium": 24
+      }
+    },
+    "duct": {
+      "name": "物品管道",
+      "materials": {
+        "beryllium": 1
+      }
+    },
+    "duct-bridge": {
+      "name": "物品管道桥",
+      "materials": {
+        "beryllium": 15
+      }
+    },
+    "duct-router": {
+      "name": "物品管道路由器",
+      "materials": {
+        "beryllium": 10
+      }
+    },
+    "duct-unloader": {
+      "name": "管道装卸器",
+      "materials": {
+        "graphite": 20,
+        "silicon": 20,
+        "tungsten": 10
+      }
+    },
+    "dune-wall": {
+      "name": "沙丘岩"
+    },
+    "duo": {
+      "name": "双管",
+      "materials": {
+        "copper": 35
+      }
+    },
+    "electric-heater": {
+      "name": "电制热机",
+      "materials": {
+        "beryllium": 30,
+        "oxide": 30,
+        "tungsten": 30
+      }
+    },
+    "electrolyzer": {
+      "name": "电解机",
+      "materials": {
+        "beryllium": 130,
+        "graphite": 40,
+        "silicon": 50,
+        "tungsten": 80
+      },
+      "liquidInputs": [
+        "water"
+      ],
+      "liquidOutputs": [
+        "hydrogen",
+        "ozone"
+      ]
+    },
+    "empty": {
+      "name": "空"
+    },
+    "eruption-drill": {
+      "name": "爆裂钻头",
+      "materials": {
+        "oxide": 20,
+        "silicon": 300,
+        "thorium": 150,
+        "tungsten": 250
+      },
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "exponential-reconstructor": {
+      "name": "多幂级单位重构工厂",
+      "materials": {
+        "lead": 2000,
+        "phase-fabric": 600,
+        "plastanium": 450,
+        "silicon": 1000,
+        "thorium": 750,
+        "titanium": 2000
+      },
+      "itemInputs": [
+        "plastanium",
+        "silicon",
+        "titanium"
+      ],
+      "liquidInputs": [
+        "cryofluid"
+      ],
+      "units": [
+        "aegires",
+        "antumbra",
+        "arkyid",
+        "quad",
+        "scepter",
+        "sei",
+        "vela"
+      ]
+    },
+    "ferric-boulder": {
+      "name": "铁石块"
+    },
+    "ferric-craters": {
+      "name": "铁陨石坑"
+    },
+    "ferric-stone": {
+      "name": "铁石"
+    },
+    "ferric-stone-wall": {
+      "name": "铁石墙"
+    },
+    "flux-reactor": {
+      "name": "通量反应堆",
+      "materials": {
+        "carbide": 60,
+        "graphite": 240,
+        "oxide": 80,
+        "silicon": 480,
+        "surge-alloy": 120
+      },
+      "liquidInputs": [
+        "cyanogen"
+      ]
+    },
+    "force-projector": {
+      "name": "力墙投影",
+      "materials": {
+        "lead": 100,
+        "silicon": 125,
+        "titanium": 75
+      }
+    },
+    "foreshadow": {
+      "name": "厄兆",
+      "materials": {
+        "copper": 1000,
+        "metaglass": 600,
+        "plastanium": 200,
+        "silicon": 600,
+        "surge-alloy": 300
+      }
+    },
+    "fuse": {
+      "name": "雷光",
+      "materials": {
+        "copper": 225,
+        "graphite": 225,
+        "thorium": 100
+      }
+    },
+    "graphite-press": {
+      "name": "石墨压缩机",
+      "materials": {
+        "copper": 75,
+        "lead": 30
+      },
+      "itemInputs": [
+        "coal"
+      ],
+      "itemOutputs": [
+        "graphite"
+      ]
+    },
+    "graphitic-wall": {
+      "name": "石墨墙"
+    },
+    "grass": {
+      "name": "草地"
+    },
+    "ground-factory": {
+      "name": "陆军工厂",
+      "materials": {
+        "copper": 50,
+        "lead": 120,
+        "silicon": 80
+      },
+      "itemInputs": [
+        "coal",
+        "lead",
+        "silicon",
+        "titanium"
+      ],
+      "units": [
+        "crawler",
+        "dagger",
+        "nova"
+      ]
+    },
+    "hail": {
+      "name": "冰雹",
+      "materials": {
+        "copper": 40,
+        "graphite": 17
+      }
+    },
+    "heat-reactor": {
+      "name": "热量反应堆",
+      "materials": {
+        "carbide": 10,
+        "graphite": 20,
+        "oxide": 70,
+        "thorium": 80
+      },
+      "itemInputs": [
+        "thorium"
+      ],
+      "itemOutputs": [
+        "fissile-matter"
+      ],
+      "liquidInputs": [
+        "nitrogen"
+      ]
+    },
+    "heat-redirector": {
+      "name": "热量传输机",
+      "materials": {
+        "graphite": 10,
+        "tungsten": 10
+      }
+    },
+    "heat-router": {
+      "name": "热量路由器",
+      "materials": {
+        "graphite": 10,
+        "tungsten": 15
+      }
+    },
+    "heat-source": {
+      "name": "热量源"
+    },
+    "hotrock": {
+      "name": "灼热岩石"
+    },
+    "hyper-processor": {
+      "name": "超核处理器",
+      "materials": {
+        "lead": 450,
+        "silicon": 150,
+        "surge-alloy": 50,
+        "thorium": 75
+      },
+      "liquidInputs": [
+        "cryofluid"
+      ]
+    },
+    "ice": {
+      "name": "冰"
+    },
+    "ice-snow": {
+      "name": "冰雪地"
+    },
+    "ice-wall": {
+      "name": "冰墙"
+    },
+    "illuminator": {
+      "name": "照明器",
+      "materials": {
+        "graphite": 12,
+        "lead": 8,
+        "silicon": 8
+      }
+    },
+    "impact-drill": {
+      "name": "冲击钻头",
+      "materials": {
+        "beryllium": 90,
+        "graphite": 60,
+        "silicon": 70
+      },
+      "liquidInputs": [
+        "water"
+      ]
+    },
+    "impact-reactor": {
+      "name": "冲击反应堆",
+      "materials": {
+        "graphite": 400,
+        "lead": 500,
+        "metaglass": 250,
+        "silicon": 300,
+        "surge-alloy": 250,
+        "thorium": 100
+      },
+      "itemInputs": [
+        "blast-compound"
+      ],
+      "liquidInputs": [
+        "cryofluid"
+      ]
+    },
+    "impulse-pump": {
+      "name": "脉冲泵",
+      "materials": {
+        "copper": 80,
+        "metaglass": 90,
+        "silicon": 30,
+        "thorium": 35,
+        "titanium": 40
+      }
+    },
+    "incinerator": {
+      "name": "焚化炉",
+      "materials": {
+        "graphite": 5,
+        "lead": 15
+      }
+    },
+    "interplanetary-accelerator": {
+      "name": "行星际加速器",
+      "materials": {
+        "copper": 16000,
+        "phase-fabric": 5000,
+        "silicon": 11000,
+        "surge-alloy": 6000,
+        "thorium": 13000,
+        "titanium": 12000
+      }
+    },
+    "inverted-sorter": {
+      "name": "反向分类器",
+      "materials": {
+        "copper": 2,
+        "lead": 2
+      }
+    },
+    "item-source": {
+      "name": "物品源"
+    },
+    "item-void": {
+      "name": "物品黑洞"
+    },
+    "junction": {
+      "name": "交叉器",
+      "materials": {
+        "copper": 3
+      }
+    },
+    "kiln": {
+      "name": "窑炉",
+      "materials": {
+        "copper": 60,
+        "graphite": 30,
+        "lead": 30
+      },
+      "itemInputs": [
+        "lead",
+        "sand"
+      ],
+      "itemOutputs": [
+        "metaglass"
+      ]
+    },
+    "lancer": {
+      "name": "蓝瑟",
+      "materials": {
+        "copper": 60,
+        "lead": 70,
+        "silicon": 60,
+        "titanium": 30
+      }
+    },
+    "landing-pad": {
+      "name": "接收台",
+      "materials": {
+        "copper": 200,
+        "graphite": 100,
+        "titanium": 100
+      }
+    },
+    "large-canvas": {
+      "name": "大型画板",
+      "materials": {
+        "beryllium": 15,
+        "silicon": 15,
+        "surge-alloy": 5
+      }
+    },
+    "large-cliff-crusher": {
+      "name": "高级墙壁粉碎机",
+      "materials": {
+        "beryllium": 100,
+        "silicon": 80,
+        "surge-alloy": 15,
+        "tungsten": 50
+      },
+      "itemOutputs": [
+        "sand"
+      ],
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "large-constructor": {
+      "name": "大型构筑器",
+      "materials": {
+        "oxide": 100,
+        "silicon": 150,
+        "thorium": 80,
+        "tungsten": 200
+      }
+    },
+    "large-logic-display": {
+      "name": "大型逻辑显示屏",
+      "materials": {
+        "lead": 200,
+        "metaglass": 100,
+        "phase-fabric": 75,
+        "silicon": 150
+      }
+    },
+    "large-payload-mass-driver": {
+      "name": "大型载荷质量驱动器",
+      "materials": {
+        "graphite": 60,
+        "oxide": 30,
+        "phase-fabric": 10,
+        "silicon": 150,
+        "tungsten": 120
+      }
+    },
+    "large-plasma-bore": {
+      "name": "高级等离子钻机",
+      "materials": {
+        "beryllium": 100,
+        "oxide": 25,
+        "silicon": 100,
+        "tungsten": 70
+      },
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "large-shield-projector": {
+      "name": "大型护盾投影器"
+    },
+    "laser-drill": {
+      "name": "激光钻头",
+      "materials": {
+        "copper": 35,
+        "graphite": 30,
+        "silicon": 30,
+        "titanium": 20
+      }
+    },
+    "launch-pad": {
+      "name": "发射台（旧版）",
+      "materials": {
+        "copper": 350,
+        "lead": 200,
+        "silicon": 140,
+        "titanium": 150
+      }
+    },
+    "liquid-container": {
+      "name": "流体容器",
+      "materials": {
+        "metaglass": 15,
+        "titanium": 10
+      }
+    },
+    "liquid-junction": {
+      "name": "流体交叉器",
+      "materials": {
+        "graphite": 4,
+        "metaglass": 8
+      }
+    },
+    "liquid-router": {
+      "name": "流体路由器",
+      "materials": {
+        "graphite": 4,
+        "metaglass": 2
+      }
+    },
+    "liquid-source": {
+      "name": "液体源"
+    },
+    "liquid-tank": {
+      "name": "流体储罐",
+      "materials": {
+        "metaglass": 40,
+        "titanium": 30
+      }
+    },
+    "liquid-void": {
+      "name": "液体黑洞"
+    },
+    "logic-display": {
+      "name": "逻辑显示屏",
+      "materials": {
+        "lead": 100,
+        "metaglass": 50,
+        "silicon": 50
+      }
+    },
+    "logic-processor": {
+      "name": "逻辑处理器",
+      "materials": {
+        "graphite": 60,
+        "lead": 320,
+        "silicon": 80,
+        "thorium": 50
+      }
+    },
+    "lustre": {
+      "name": "光辉",
+      "materials": {
+        "carbide": 90,
+        "graphite": 200,
+        "oxide": 50,
+        "silicon": 250
+      },
+      "liquidInputs": [
+        "nitrogen"
+      ]
+    },
+    "magmarock": {
+      "name": "熔融岩石"
+    },
+    "malign": {
+      "name": "魔灵",
+      "materials": {
+        "beryllium": 1000,
+        "carbide": 200,
+        "graphite": 500,
+        "phase-fabric": 200,
+        "silicon": 500
+      }
+    },
+    "mass-driver": {
+      "name": "质量驱动器",
+      "materials": {
+        "lead": 125,
+        "silicon": 75,
+        "thorium": 50,
+        "titanium": 125
+      }
+    },
+    "mech-assembler": {
+      "name": "机甲组装厂",
+      "materials": {
+        "carbide": 200,
+        "oxide": 200,
+        "silicon": 1000,
+        "thorium": 600,
+        "tungsten": 550
+      },
+      "liquidInputs": [
+        "cyanogen"
+      ],
+      "units": [
+        "collaris",
+        "tecta"
+      ]
+    },
+    "mech-fabricator": {
+      "name": "机甲制造厂",
+      "materials": {
+        "beryllium": 250,
+        "silicon": 200,
+        "tungsten": 10
+      },
+      "itemInputs": [
+        "beryllium",
+        "silicon"
+      ],
+      "units": [
+        "merui"
+      ]
+    },
+    "mech-refabricator": {
+      "name": "机甲重构厂",
+      "materials": {
+        "beryllium": 250,
+        "silicon": 150,
+        "tungsten": 175
+      },
+      "itemInputs": [
+        "silicon",
+        "tungsten"
+      ],
+      "liquidInputs": [
+        "hydrogen"
+      ],
+      "units": [
+        "cleroi"
+      ]
+    },
+    "mechanical-drill": {
+      "name": "机械钻头",
+      "materials": {
+        "copper": 12
+      }
+    },
+    "mechanical-pump": {
+      "name": "机械泵",
+      "materials": {
+        "copper": 15,
+        "metaglass": 10
+      }
+    },
+    "meltdown": {
+      "name": "熔毁",
+      "materials": {
+        "copper": 1200,
+        "graphite": 300,
+        "lead": 350,
+        "silicon": 325,
+        "surge-alloy": 325
+      },
+      "liquidInputs": [
+        "coolant"
+      ]
+    },
+    "melter": {
+      "name": "熔炉",
+      "materials": {
+        "copper": 30,
+        "graphite": 45,
+        "lead": 35
+      },
+      "itemInputs": [
+        "scrap"
+      ],
+      "liquidOutputs": [
+        "slag"
+      ]
+    },
+    "memory-bank": {
+      "name": "内存库",
+      "materials": {
+        "copper": 30,
+        "graphite": 80,
+        "phase-fabric": 30,
+        "silicon": 80
+      }
+    },
+    "memory-cell": {
+      "name": "内存元",
+      "materials": {
+        "copper": 30,
+        "graphite": 30,
+        "silicon": 30
+      }
+    },
+    "mend-projector": {
+      "name": "修理投影",
+      "materials": {
+        "copper": 50,
+        "lead": 100,
+        "silicon": 40,
+        "titanium": 25
+      }
+    },
+    "mender": {
+      "name": "修理器",
+      "materials": {
+        "copper": 25,
+        "lead": 30
+      }
+    },
+    "message": {
+      "name": "信息板",
+      "materials": {
+        "copper": 5,
+        "graphite": 5
+      }
+    },
+    "metal-floor": {
+      "name": "金属地板 1"
+    },
+    "metal-floor-2": {
+      "name": "金属地板 2"
+    },
+    "metal-floor-3": {
+      "name": "金属地板 3"
+    },
+    "metal-floor-4": {
+      "name": "金属地板 4"
+    },
+    "metal-floor-5": {
+      "name": "金属地板 5"
+    },
+    "metal-floor-damaged": {
+      "name": "损坏的金属地板"
+    },
+    "metal-tiles-1": {
+      "name": "金属地基 1"
+    },
+    "metal-tiles-10": {
+      "name": "金属地基 10"
+    },
+    "metal-tiles-11": {
+      "name": "金属地基 11"
+    },
+    "metal-tiles-12": {
+      "name": "金属地基 12"
+    },
+    "metal-tiles-13": {
+      "name": "金属地基 13"
+    },
+    "metal-tiles-2": {
+      "name": "金属地基 2"
+    },
+    "metal-tiles-3": {
+      "name": "金属地基 3"
+    },
+    "metal-tiles-4": {
+      "name": "金属地基 4"
+    },
+    "metal-tiles-5": {
+      "name": "金属地基 5"
+    },
+    "metal-tiles-6": {
+      "name": "金属地基 6"
+    },
+    "metal-tiles-7": {
+      "name": "金属地基 7"
+    },
+    "metal-tiles-8": {
+      "name": "金属地基 8"
+    },
+    "metal-tiles-9": {
+      "name": "金属地基 9"
+    },
+    "metal-wall-1": {
+      "name": "金属墙 1"
+    },
+    "metal-wall-2": {
+      "name": "金属墙 2"
+    },
+    "metal-wall-3": {
+      "name": "金属墙 3"
+    },
+    "micro-processor": {
+      "name": "微型处理器",
+      "materials": {
+        "copper": 90,
+        "lead": 50,
+        "silicon": 50
+      }
+    },
+    "molten-slag": {
+      "name": "矿渣液"
+    },
+    "moss": {
+      "name": "苔藓地"
+    },
+    "mud": {
+      "name": "泥巴"
+    },
+    "multi-press": {
+      "name": "多重压缩机",
+      "materials": {
+        "graphite": 50,
+        "lead": 100,
+        "silicon": 25,
+        "titanium": 100
+      },
+      "itemInputs": [
+        "coal"
+      ],
+      "itemOutputs": [
+        "graphite"
+      ],
+      "liquidInputs": [
+        "water"
+      ]
+    },
+    "multiplicative-reconstructor": {
+      "name": "倍乘级单位重构工厂",
+      "materials": {
+        "lead": 650,
+        "silicon": 450,
+        "thorium": 650,
+        "titanium": 350
+      },
+      "itemInputs": [
+        "metaglass",
+        "silicon",
+        "titanium"
+      ],
+      "units": [
+        "bryde",
+        "cyerce",
+        "fortress",
+        "mega",
+        "quasar",
+        "spiroct",
+        "zenith"
+      ]
+    },
+    "naval-factory": {
+      "name": "海军工厂",
+      "materials": {
+        "copper": 150,
+        "lead": 130,
+        "metaglass": 120
+      },
+      "itemInputs": [
+        "metaglass",
+        "silicon",
+        "titanium"
+      ],
+      "units": [
+        "retusa",
+        "risso"
+      ]
+    },
+    "neoplasia-reactor": {
+      "name": "瘤变反应堆",
+      "materials": {
+        "carbide": 300,
+        "oxide": 150,
+        "phase-fabric": 150,
+        "silicon": 500,
+        "surge-alloy": 200,
+        "tungsten": 750
+      },
+      "itemInputs": [
+        "phase-fabric"
+      ],
+      "liquidInputs": [
+        "arkycite",
+        "water"
+      ],
+      "liquidOutputs": [
+        "neoplasm"
+      ]
+    },
+    "oil-extractor": {
+      "name": "石油钻井",
+      "materials": {
+        "copper": 150,
+        "graphite": 175,
+        "lead": 115,
+        "silicon": 75,
+        "thorium": 115
+      },
+      "itemInputs": [
+        "sand"
+      ],
+      "liquidInputs": [
+        "water"
+      ],
+      "liquidOutputs": [
+        "oil"
+      ]
+    },
+    "ore-wall-beryllium": {
+      "name": "ore-wall-beryllium"
+    },
+    "ore-wall-graphite": {
+      "name": "ore-wall-graphite"
+    },
+    "ore-wall-thorium": {
+      "name": "ore-wall-thorium"
+    },
+    "ore-wall-tungsten": {
+      "name": "ore-wall-tungsten"
+    },
+    "overdrive-dome": {
+      "name": "超速穹顶",
+      "materials": {
+        "lead": 200,
+        "plastanium": 80,
+        "silicon": 130,
+        "surge-alloy": 120,
+        "titanium": 130
+      },
+      "itemInputs": [
+        "phase-fabric",
+        "silicon"
+      ]
+    },
+    "overdrive-projector": {
+      "name": "超速投影",
+      "materials": {
+        "lead": 100,
+        "plastanium": 30,
+        "silicon": 75,
+        "titanium": 75
+      }
+    },
+    "overflow-duct": {
+      "name": "溢流管道",
+      "materials": {
+        "beryllium": 8,
+        "graphite": 8
+      }
+    },
+    "overflow-gate": {
+      "name": "溢流门",
+      "materials": {
+        "copper": 4,
+        "lead": 2
+      }
+    },
+    "oxidation-chamber": {
+      "name": "氧化室",
+      "materials": {
+        "beryllium": 120,
+        "graphite": 80,
+        "silicon": 100,
+        "tungsten": 120
+      },
+      "itemInputs": [
+        "beryllium"
+      ],
+      "itemOutputs": [
+        "oxide"
+      ],
+      "liquidInputs": [
+        "ozone"
+      ]
+    },
+    "parallax": {
+      "name": "差扰",
+      "materials": {
+        "graphite": 50,
+        "silicon": 160,
+        "titanium": 110
+      }
+    },
+    "payload-conveyor": {
+      "name": "载荷传送带",
+      "materials": {
+        "copper": 10,
+        "graphite": 10
+      }
+    },
+    "payload-loader": {
+      "name": "载荷装载器",
+      "materials": {
+        "graphite": 80,
+        "silicon": 160,
+        "tungsten": 90
+      }
+    },
+    "payload-mass-driver": {
+      "name": "载荷质量驱动器",
+      "materials": {
+        "graphite": 20,
+        "silicon": 50,
+        "tungsten": 40
+      }
+    },
+    "payload-router": {
+      "name": "载荷路由器",
+      "materials": {
+        "copper": 10,
+        "graphite": 15
+      }
+    },
+    "payload-source": {
+      "name": "载荷源"
+    },
+    "payload-unloader": {
+      "name": "载荷卸载器",
+      "materials": {
+        "graphite": 140,
+        "silicon": 220,
+        "tungsten": 180
+      }
+    },
+    "payload-void": {
+      "name": "载荷黑洞"
+    },
+    "pebbles": {
+      "name": "鹅卵石"
+    },
+    "phase-conduit": {
+      "name": "相织布导管桥",
+      "materials": {
+        "metaglass": 20,
+        "phase-fabric": 5,
+        "silicon": 7,
+        "titanium": 10
+      }
+    },
+    "phase-conveyor": {
+      "name": "相织布传送带桥",
+      "materials": {
+        "graphite": 10,
+        "lead": 10,
+        "phase-fabric": 5,
+        "silicon": 7
+      }
+    },
+    "phase-heater": {
+      "name": "相织制热机",
+      "materials": {
+        "beryllium": 30,
+        "carbide": 30,
+        "oxide": 30
+      },
+      "itemInputs": [
+        "phase-fabric"
+      ]
+    },
+    "phase-synthesizer": {
+      "name": "相织布合成机",
+      "materials": {
+        "carbide": 90,
+        "silicon": 100,
+        "thorium": 100,
+        "tungsten": 200
+      },
+      "itemInputs": [
+        "sand",
+        "thorium"
+      ],
+      "itemOutputs": [
+        "phase-fabric"
+      ],
+      "liquidInputs": [
+        "ozone"
+      ]
+    },
+    "phase-wall": {
+      "name": "相织布墙",
+      "materials": {
+        "phase-fabric": 6
+      }
+    },
+    "phase-wall-large": {
+      "name": "大型相织布墙",
+      "materials": {
+        "phase-fabric": 24
+      }
+    },
+    "phase-weaver": {
+      "name": "相织布编织器",
+      "materials": {
+        "lead": 120,
+        "silicon": 130,
+        "thorium": 75
+      },
+      "itemInputs": [
+        "sand",
+        "thorium"
+      ],
+      "itemOutputs": [
+        "phase-fabric"
+      ]
+    },
+    "pine": {
+      "name": "松树"
+    },
+    "plasma-bore": {
+      "name": "等离子钻机",
+      "materials": {
+        "beryllium": 40
+      }
+    },
+    "plastanium-compressor": {
+      "name": "塑钢压缩机",
+      "materials": {
+        "graphite": 60,
+        "lead": 115,
+        "silicon": 80,
+        "titanium": 80
+      },
+      "itemInputs": [
+        "titanium"
+      ],
+      "itemOutputs": [
+        "plastanium"
+      ],
+      "liquidInputs": [
+        "oil"
+      ]
+    },
+    "plastanium-conveyor": {
+      "name": "塑钢传送带",
+      "materials": {
+        "graphite": 1,
+        "plastanium": 1,
+        "silicon": 1
+      }
+    },
+    "plastanium-wall": {
+      "name": "塑钢墙",
+      "materials": {
+        "metaglass": 2,
+        "plastanium": 5
+      }
+    },
+    "plastanium-wall-large": {
+      "name": "大型塑钢墙",
+      "materials": {
+        "metaglass": 8,
+        "plastanium": 20
+      }
+    },
+    "plated-conduit": {
+      "name": "电镀导管",
+      "materials": {
+        "metaglass": 1,
+        "plastanium": 1,
+        "thorium": 2
+      }
+    },
+    "pneumatic-drill": {
+      "name": "气动钻头",
+      "materials": {
+        "copper": 18,
+        "graphite": 10
+      }
+    },
+    "pooled-cryofluid": {
+      "name": "冷冻液"
+    },
+    "power-node": {
+      "name": "电力节点",
+      "materials": {
+        "copper": 2,
+        "lead": 6
+      }
+    },
+    "power-node-large": {
+      "name": "大型电力节点",
+      "materials": {
+        "lead": 10,
+        "silicon": 3,
+        "titanium": 5
+      }
+    },
+    "power-source": {
+      "name": "电力源"
+    },
+    "power-void": {
+      "name": "电力黑洞"
+    },
+    "prime-refabricator": {
+      "name": "高级再重构工厂",
+      "materials": {
+        "oxide": 200,
+        "silicon": 400,
+        "thorium": 250,
+        "tungsten": 200
+      },
+      "itemInputs": [
+        "silicon",
+        "thorium"
+      ],
+      "liquidInputs": [
+        "nitrogen"
+      ],
+      "units": [
+        "anthicus",
+        "obviate",
+        "precept"
+      ]
+    },
+    "pulse-conduit": {
+      "name": "脉冲导管",
+      "materials": {
+        "metaglass": 1,
+        "titanium": 2
+      }
+    },
+    "pulverizer": {
+      "name": "粉碎机",
+      "materials": {
+        "copper": 30,
+        "lead": 25
+      },
+      "itemInputs": [
+        "scrap"
+      ],
+      "itemOutputs": [
+        "sand"
+      ]
+    },
+    "pur-bush": {
+      "name": "紫灌木丛"
+    },
+    "pyratite-mixer": {
+      "name": "硫化物混合器",
+      "materials": {
+        "copper": 50,
+        "lead": 25
+      },
+      "itemInputs": [
+        "coal",
+        "lead",
+        "sand"
+      ],
+      "itemOutputs": [
+        "pyratite"
+      ]
+    },
+    "pyrolysis-generator": {
+      "name": "热解发生器",
+      "materials": {
+        "carbide": 60,
+        "graphite": 100,
+        "oxide": 60,
+        "silicon": 100
+      },
+      "liquidInputs": [
+        "arkycite",
+        "slag"
+      ],
+      "liquidOutputs": [
+        "water"
+      ]
+    },
+    "radar": {
+      "name": "雷达",
+      "materials": {
+        "beryllium": 10,
+        "graphite": 50,
+        "silicon": 60
+      }
+    },
+    "red-diamond-wall": {
+      "name": "红钻墙"
+    },
+    "red-ice": {
+      "name": "红冰"
+    },
+    "red-ice-boulder": {
+      "name": "红冰石块"
+    },
+    "red-ice-wall": {
+      "name": "红冰墙"
+    },
+    "red-stone": {
+      "name": "红石"
+    },
+    "red-stone-boulder": {
+      "name": "红石块"
+    },
+    "red-stone-vent": {
+      "name": "红石喷口"
+    },
+    "red-stone-wall": {
+      "name": "红石墙"
+    },
+    "redmat": {
+      "name": "红地垫"
+    },
+    "redweed": {
+      "name": "赤藻"
+    },
+    "regen-projector": {
+      "name": "再生投影器",
+      "materials": {
+        "beryllium": 80,
+        "oxide": 40,
+        "silicon": 80,
+        "tungsten": 60
+      },
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "regolith": {
+      "name": "风化岩"
+    },
+    "regolith-wall": {
+      "name": "风化墙"
+    },
+    "reinforced-bridge-conduit": {
+      "name": "强化流体带桥",
+      "materials": {
+        "beryllium": 20,
+        "graphite": 8
+      }
+    },
+    "reinforced-conduit": {
+      "name": "强化导管",
+      "materials": {
+        "beryllium": 2
+      }
+    },
+    "reinforced-container": {
+      "name": "强化容器",
+      "materials": {
+        "graphite": 40,
+        "tungsten": 30
+      }
+    },
+    "reinforced-liquid-container": {
+      "name": "强化流体容器",
+      "materials": {
+        "beryllium": 16,
+        "tungsten": 10
+      }
+    },
+    "reinforced-liquid-junction": {
+      "name": "强化流体交叉器",
+      "materials": {
+        "beryllium": 8,
+        "graphite": 4
+      }
+    },
+    "reinforced-liquid-router": {
+      "name": "强化流体路由器",
+      "materials": {
+        "beryllium": 4,
+        "graphite": 8
+      }
+    },
+    "reinforced-liquid-tank": {
+      "name": "强化流体储罐",
+      "materials": {
+        "beryllium": 50,
+        "tungsten": 40
+      }
+    },
+    "reinforced-message": {
+      "name": "强化信息板",
+      "materials": {
+        "beryllium": 5,
+        "graphite": 10
+      }
+    },
+    "reinforced-payload-conveyor": {
+      "name": "强化载荷传送带",
+      "materials": {
+        "tungsten": 10
+      }
+    },
+    "reinforced-payload-router": {
+      "name": "强化载荷路由器",
+      "materials": {
+        "tungsten": 15
+      }
+    },
+    "reinforced-pump": {
+      "name": "强化泵",
+      "materials": {
+        "beryllium": 40,
+        "silicon": 20,
+        "tungsten": 30
+      },
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "reinforced-surge-wall": {
+      "name": "强化合金墙",
+      "materials": {
+        "surge-alloy": 6,
+        "tungsten": 2
+      }
+    },
+    "reinforced-surge-wall-large": {
+      "name": "大型强化合金墙",
+      "materials": {
+        "surge-alloy": 24,
+        "tungsten": 8
+      }
+    },
+    "reinforced-vault": {
+      "name": "强化仓库",
+      "materials": {
+        "beryllium": 100,
+        "thorium": 70,
+        "tungsten": 125
+      }
+    },
+    "remove-ore": {
+      "name": "移除矿"
+    },
+    "remove-wall": {
+      "name": "移除墙体"
+    },
+    "repair-point": {
+      "name": "维修点",
+      "materials": {
+        "copper": 30,
+        "lead": 30,
+        "silicon": 20
+      }
+    },
+    "repair-turret": {
+      "name": "维修塔",
+      "materials": {
+        "plastanium": 60,
+        "silicon": 90,
+        "thorium": 80
+      }
+    },
+    "rhyolite": {
+      "name": "流纹岩"
+    },
+    "rhyolite-boulder": {
+      "name": "流纹石块"
+    },
+    "rhyolite-crater": {
+      "name": "流纹岩坑"
+    },
+    "rhyolite-vent": {
+      "name": "流纹石喷口"
+    },
+    "rhyolite-wall": {
+      "name": "流纹岩墙"
+    },
+    "ripple": {
+      "name": "浪涌",
+      "materials": {
+        "copper": 150,
+        "graphite": 135,
+        "titanium": 60
+      }
+    },
+    "rotary-pump": {
+      "name": "回转泵",
+      "materials": {
+        "copper": 70,
+        "metaglass": 50,
+        "silicon": 20,
+        "titanium": 35
+      }
+    },
+    "rough-rhyolite": {
+      "name": "粗糙流纹岩"
+    },
+    "router": {
+      "name": "路由器",
+      "materials": {
+        "copper": 3
+      }
+    },
+    "rtg-generator": {
+      "name": "RTG 发电机",
+      "materials": {
+        "lead": 100,
+        "phase-fabric": 25,
+        "plastanium": 75,
+        "silicon": 75,
+        "thorium": 50
+      }
+    },
+    "rune-overlay": {
+      "name": "符文贴片"
+    },
+    "rune-overlay-crux": {
+      "name": "符文贴片 （红队）"
+    },
+    "salt": {
+      "name": "盐碱地"
+    },
+    "salt-wall": {
+      "name": "盐墙"
+    },
+    "salvo": {
+      "name": "齐射",
+      "materials": {
+        "copper": 100,
+        "graphite": 80,
+        "titanium": 50
+      }
+    },
+    "sand-boulder": {
+      "name": "砂岩块"
+    },
+    "sand-floor": {
+      "name": "沙子"
+    },
+    "sand-wall": {
+      "name": "沙墙"
+    },
+    "sand-water": {
+      "name": "浅滩"
+    },
+    "scathe": {
+      "name": "创伤",
+      "materials": {
+        "carbide": 200,
+        "graphite": 400,
+        "oxide": 100,
+        "silicon": 450,
+        "tungsten": 500
+      }
+    },
+    "scatter": {
+      "name": "分裂",
+      "materials": {
+        "copper": 85,
+        "lead": 45
+      }
+    },
+    "scorch": {
+      "name": "火焰",
+      "materials": {
+        "copper": 25,
+        "graphite": 22
+      }
+    },
+    "scrap-wall": {
+      "name": "废墙",
+      "materials": {
+        "scrap": 6
+      }
+    },
+    "scrap-wall-gigantic": {
+      "name": "超巨型废墙",
+      "materials": {
+        "scrap": 96
+      }
+    },
+    "scrap-wall-huge": {
+      "name": "巨型废墙",
+      "materials": {
+        "scrap": 54
+      }
+    },
+    "scrap-wall-large": {
+      "name": "大型废墙",
+      "materials": {
+        "scrap": 24
+      }
+    },
+    "segment": {
+      "name": "裂解",
+      "materials": {
+        "phase-fabric": 40,
+        "silicon": 130,
+        "thorium": 80,
+        "titanium": 40
+      }
+    },
+    "separator": {
+      "name": "分离机",
+      "materials": {
+        "copper": 30,
+        "titanium": 25
+      },
+      "itemOutputs": [
+        "copper",
+        "graphite",
+        "lead",
+        "titanium"
+      ],
+      "liquidInputs": [
+        "slag"
+      ]
+    },
+    "shale": {
+      "name": "页岩地"
+    },
+    "shale-boulder": {
+      "name": "页岩块"
+    },
+    "shale-wall": {
+      "name": "页岩墙"
+    },
+    "shallow-water": {
+      "name": "水"
+    },
+    "shield-projector": {
+      "name": "护盾投影器"
+    },
+    "shielded-wall": {
+      "name": "盾墙",
+      "materials": {
+        "beryllium": 12,
+        "phase-fabric": 20,
+        "surge-alloy": 12
+      }
+    },
+    "ship-assembler": {
+      "name": "飞船组装厂",
+      "materials": {
+        "carbide": 100,
+        "oxide": 200,
+        "silicon": 900,
+        "thorium": 400,
+        "tungsten": 550
+      },
+      "liquidInputs": [
+        "cyanogen"
+      ],
+      "units": [
+        "disrupt",
+        "quell"
+      ]
+    },
+    "ship-fabricator": {
+      "name": "飞船制造厂",
+      "materials": {
+        "beryllium": 200,
+        "silicon": 250
+      },
+      "itemInputs": [
+        "graphite",
+        "silicon"
+      ],
+      "units": [
+        "elude"
+      ]
+    },
+    "ship-refabricator": {
+      "name": "飞船重构厂",
+      "materials": {
+        "beryllium": 250,
+        "oxide": 15,
+        "silicon": 150,
+        "tungsten": 120
+      },
+      "itemInputs": [
+        "silicon",
+        "tungsten"
+      ],
+      "liquidInputs": [
+        "hydrogen"
+      ],
+      "units": [
+        "avert"
+      ]
+    },
+    "shock-mine": {
+      "name": "脉冲地雷",
+      "materials": {
+        "lead": 25,
+        "silicon": 12
+      }
+    },
+    "shockwave-tower": {
+      "name": "震爆塔",
+      "materials": {
+        "oxide": 30,
+        "silicon": 150,
+        "surge-alloy": 50,
+        "tungsten": 100
+      },
+      "liquidInputs": [
+        "cyanogen"
+      ]
+    },
+    "shrubs": {
+      "name": "灌木丛"
+    },
+    "silicon-arc-furnace": {
+      "name": "电弧硅炉",
+      "materials": {
+        "beryllium": 70,
+        "graphite": 80
+      },
+      "itemInputs": [
+        "graphite",
+        "sand"
+      ],
+      "itemOutputs": [
+        "silicon"
+      ]
+    },
+    "silicon-crucible": {
+      "name": "热能坩埚",
+      "materials": {
+        "metaglass": 80,
+        "plastanium": 35,
+        "silicon": 60,
+        "titanium": 120
+      },
+      "itemInputs": [
+        "coal",
+        "pyratite",
+        "sand"
+      ],
+      "itemOutputs": [
+        "silicon"
+      ]
+    },
+    "silicon-smelter": {
+      "name": "硅冶炼厂",
+      "materials": {
+        "copper": 30,
+        "lead": 25
+      },
+      "itemInputs": [
+        "coal",
+        "sand"
+      ],
+      "itemOutputs": [
+        "silicon"
+      ]
+    },
+    "slag-centrifuge": {
+      "name": "矿渣离心机",
+      "materials": {
+        "carbide": 70,
+        "graphite": 60,
+        "oxide": 40,
+        "silicon": 40
+      },
+      "itemInputs": [
+        "sand"
+      ],
+      "liquidInputs": [
+        "slag"
+      ],
+      "liquidOutputs": [
+        "gallium"
+      ]
+    },
+    "slag-heater": {
+      "name": "矿渣制热机",
+      "materials": {
+        "beryllium": 20,
+        "oxide": 20,
+        "tungsten": 50
+      },
+      "liquidInputs": [
+        "slag"
+      ]
+    },
+    "slag-incinerator": {
+      "name": "矿渣焚化炉",
+      "materials": {
+        "tungsten": 15
+      }
+    },
+    "small-deconstructor": {
+      "name": "解构器",
+      "materials": {
+        "beryllium": 70,
+        "graphite": 50,
+        "oxide": 25,
+        "silicon": 70
+      }
+    },
+    "small-heat-redirector": {
+      "name": "小型热量传输机",
+      "materials": {
+        "graphite": 8,
+        "surge-alloy": 3
+      }
+    },
+    "smite": {
+      "name": "天谴",
+      "materials": {
+        "carbide": 500,
+        "oxide": 200,
+        "phase-fabric": 300,
+        "silicon": 800,
+        "surge-alloy": 400
+      }
+    },
+    "snow": {
+      "name": "雪"
+    },
+    "snow-boulder": {
+      "name": "雪岩块"
+    },
+    "snow-pine": {
+      "name": "雪树"
+    },
+    "snow-wall": {
+      "name": "雪墙"
+    },
+    "solar-panel": {
+      "name": "太阳能板",
+      "materials": {
+        "lead": 10,
+        "silicon": 8
+      }
+    },
+    "solar-panel-large": {
+      "name": "大型太阳能板",
+      "materials": {
+        "lead": 60,
+        "phase-fabric": 15,
+        "silicon": 70
+      }
+    },
+    "sorter": {
+      "name": "分类器",
+      "materials": {
+        "copper": 2,
+        "lead": 2
+      }
+    },
+    "space": {
+      "name": "太空"
+    },
+    "spawn": {
+      "name": "敌人出生点"
+    },
+    "spectre": {
+      "name": "幽灵",
+      "materials": {
+        "copper": 900,
+        "graphite": 300,
+        "plastanium": 175,
+        "surge-alloy": 250,
+        "thorium": 250
+      }
+    },
+    "spore-cluster": {
+      "name": "孢子簇"
+    },
+    "spore-moss": {
+      "name": "孢子苔藓地"
+    },
+    "spore-pine": {
+      "name": "孢子树"
+    },
+    "spore-press": {
+      "name": "孢子压缩机",
+      "materials": {
+        "lead": 35,
+        "silicon": 30
+      },
+      "itemInputs": [
+        "spore-pod"
+      ],
+      "liquidOutputs": [
+        "oil"
+      ]
+    },
+    "spore-wall": {
+      "name": "孢子墙"
+    },
+    "steam-generator": {
+      "name": "涡轮发电机",
+      "materials": {
+        "copper": 35,
+        "graphite": 25,
+        "lead": 40,
+        "silicon": 30
+      },
+      "liquidInputs": [
+        "water"
+      ]
+    },
+    "stone": {
+      "name": "石头"
+    },
+    "stone-vent": {
+      "name": "岩石喷口"
+    },
+    "stone-wall": {
+      "name": "石墙"
+    },
+    "sublimate": {
+      "name": "升华",
+      "materials": {
+        "beryllium": 400,
+        "oxide": 40,
+        "silicon": 200,
+        "tungsten": 150
+      }
+    },
+    "surge-conveyor": {
+      "name": "合金传送带",
+      "materials": {
+        "surge-alloy": 1,
+        "tungsten": 1
+      }
+    },
+    "surge-crucible": {
+      "name": "合金坩埚",
+      "materials": {
+        "graphite": 80,
+        "oxide": 80,
+        "silicon": 100,
+        "tungsten": 80
+      },
+      "itemInputs": [
+        "silicon"
+      ],
+      "itemOutputs": [
+        "surge-alloy"
+      ],
+      "liquidInputs": [
+        "slag"
+      ]
+    },
+    "surge-router": {
+      "name": "合金路由器",
+      "materials": {
+        "surge-alloy": 5,
+        "tungsten": 1
+      }
+    },
+    "surge-smelter": {
+      "name": "合金冶炼厂",
+      "materials": {
+        "lead": 80,
+        "silicon": 80,
+        "thorium": 70
+      },
+      "itemInputs": [
+        "copper",
+        "lead",
+        "silicon",
+        "titanium"
+      ],
+      "itemOutputs": [
+        "surge-alloy"
+      ]
+    },
+    "surge-tower": {
+      "name": "巨浪电力塔",
+      "materials": {
+        "lead": 10,
+        "silicon": 15,
+        "surge-alloy": 15,
+        "titanium": 7
+      }
+    },
+    "surge-wall": {
+      "name": "合金墙",
+      "materials": {
+        "surge-alloy": 6
+      }
+    },
+    "surge-wall-large": {
+      "name": "大型合金墙",
+      "materials": {
+        "surge-alloy": 24
+      }
+    },
+    "swarmer": {
+      "name": "蜂群",
+      "materials": {
+        "graphite": 35,
+        "plastanium": 45,
+        "silicon": 30,
+        "titanium": 35
+      }
+    },
+    "switch": {
+      "name": "开关",
+      "materials": {
+        "copper": 5,
+        "graphite": 5
+      }
+    },
+    "tainted-water": {
+      "name": "污水"
+    },
+    "tank-assembler": {
+      "name": "坦克组装厂",
+      "materials": {
+        "carbide": 80,
+        "oxide": 150,
+        "silicon": 650,
+        "thorium": 500
+      },
+      "liquidInputs": [
+        "cyanogen"
+      ],
+      "units": [
+        "conquer",
+        "vanquish"
+      ]
+    },
+    "tank-fabricator": {
+      "name": "坦克制造厂",
+      "materials": {
+        "beryllium": 150,
+        "silicon": 200
+      },
+      "itemInputs": [
+        "beryllium",
+        "silicon"
+      ],
+      "units": [
+        "stell"
+      ]
+    },
+    "tank-refabricator": {
+      "name": "坦克重构厂",
+      "materials": {
+        "beryllium": 200,
+        "silicon": 100,
+        "tungsten": 80
+      },
+      "itemInputs": [
+        "silicon",
+        "tungsten"
+      ],
+      "liquidInputs": [
+        "hydrogen"
+      ],
+      "units": [
+        "locus"
+      ]
+    },
+    "tar": {
+      "name": "石油"
+    },
+    "target-dummy": {
+      "name": "标靶"
+    },
+    "tendrils": {
+      "name": "卷须"
+    },
+    "tetrative-reconstructor": {
+      "name": "无量级单位重构工厂",
+      "materials": {
+        "lead": 4000,
+        "phase-fabric": 600,
+        "plastanium": 600,
+        "silicon": 3000,
+        "surge-alloy": 800,
+        "thorium": 1000
+      },
+      "itemInputs": [
+        "phase-fabric",
+        "plastanium",
+        "silicon",
+        "surge-alloy"
+      ],
+      "liquidInputs": [
+        "cryofluid"
+      ],
+      "units": [
+        "corvus",
+        "eclipse",
+        "navanax",
+        "oct",
+        "omura",
+        "reign",
+        "toxopid"
+      ]
+    },
+    "thermal-generator": {
+      "name": "热能发电机",
+      "materials": {
+        "copper": 40,
+        "graphite": 35,
+        "lead": 50,
+        "metaglass": 40,
+        "silicon": 35
+      }
+    },
+    "thorium-reactor": {
+      "name": "钍反应堆",
+      "materials": {
+        "graphite": 150,
+        "lead": 300,
+        "metaglass": 50,
+        "silicon": 200,
+        "thorium": 150
+      },
+      "itemInputs": [
+        "thorium"
+      ],
+      "liquidInputs": [
+        "cryofluid"
+      ]
+    },
+    "thorium-wall": {
+      "name": "钍墙",
+      "materials": {
+        "thorium": 6
+      }
+    },
+    "thorium-wall-large": {
+      "name": "大型钍墙",
+      "materials": {
+        "thorium": 24
+      }
+    },
+    "thruster": {
+      "name": "推进器残骸",
+      "materials": {
+        "scrap": 96
+      }
+    },
+    "tile-logic-display": {
+      "name": "逻辑显示单元",
+      "materials": {
+        "lead": 8,
+        "metaglass": 8,
+        "phase-fabric": 3,
+        "silicon": 8
+      }
+    },
+    "titan": {
+      "name": "泰坦",
+      "materials": {
+        "silicon": 300,
+        "thorium": 400,
+        "tungsten": 250
+      },
+      "liquidInputs": [
+        "hydrogen"
+      ]
+    },
+    "titanium-conveyor": {
+      "name": "钛传送带",
+      "materials": {
+        "copper": 1,
+        "lead": 1,
+        "titanium": 1
+      }
+    },
+    "titanium-wall": {
+      "name": "钛墙",
+      "materials": {
+        "titanium": 6
+      }
+    },
+    "titanium-wall-large": {
+      "name": "大型钛墙",
+      "materials": {
+        "titanium": 24
+      }
+    },
+    "tsunami": {
+      "name": "海啸",
+      "materials": {
+        "lead": 400,
+        "metaglass": 100,
+        "thorium": 100,
+        "titanium": 250
+      }
+    },
+    "tungsten-wall": {
+      "name": "钨墙",
+      "materials": {
+        "tungsten": 6
+      }
+    },
+    "tungsten-wall-large": {
+      "name": "大型钨墙",
+      "materials": {
+        "tungsten": 24
+      }
+    },
+    "turbine-condenser": {
+      "name": "涡轮冷凝器",
+      "materials": {
+        "beryllium": 60
+      },
+      "liquidOutputs": [
+        "water"
+      ]
+    },
+    "underflow-duct": {
+      "name": "反向溢流管",
+      "materials": {
+        "beryllium": 8,
+        "graphite": 8
+      }
+    },
+    "underflow-gate": {
+      "name": "反向溢流门",
+      "materials": {
+        "copper": 4,
+        "lead": 2
+      }
+    },
+    "unit-cargo-loader": {
+      "name": "单位物流装载器",
+      "materials": {
+        "oxide": 20,
+        "silicon": 80,
+        "surge-alloy": 50
+      },
+      "liquidInputs": [
+        "nitrogen"
+      ]
+    },
+    "unit-cargo-unload-point": {
+      "name": "单位物流卸载点",
+      "materials": {
+        "silicon": 60,
+        "tungsten": 60
+      }
+    },
+    "unit-repair-tower": {
+      "name": "单位维修塔",
+      "materials": {
+        "graphite": 90,
+        "silicon": 90,
+        "tungsten": 80
+      },
+      "liquidInputs": [
+        "ozone"
+      ]
+    },
+    "unloader": {
+      "name": "装卸器",
+      "materials": {
+        "silicon": 30,
+        "titanium": 25
+      }
+    },
+    "vault": {
+      "name": "仓库",
+      "materials": {
+        "thorium": 125,
+        "titanium": 250
+      }
+    },
+    "vent-condenser": {
+      "name": "排气冷凝器",
+      "materials": {
+        "beryllium": 60,
+        "graphite": 20
+      },
+      "liquidOutputs": [
+        "water"
+      ]
+    },
+    "vibrant-crystal-cluster": {
+      "name": "鲜艳水晶簇"
+    },
+    "water-extractor": {
+      "name": "抽水机",
+      "materials": {
+        "copper": 30,
+        "graphite": 30,
+        "lead": 30,
+        "metaglass": 30
+      },
+      "liquidOutputs": [
+        "water"
+      ]
+    },
+    "wave": {
+      "name": "波浪",
+      "materials": {
+        "copper": 25,
+        "lead": 75,
+        "metaglass": 45
+      }
+    },
+    "white-tree": {
+      "name": "白树"
+    },
+    "white-tree-dead": {
+      "name": "枯萎的白树"
+    },
+    "world-cell": {
+      "name": "世界内存元"
+    },
+    "world-message": {
+      "name": "世界信息板"
+    },
+    "world-processor": {
+      "name": "世界处理器"
+    },
+    "world-switch": {
+      "name": "世界开关"
+    },
+    "yellow-stone": {
+      "name": "黄石"
+    },
+    "yellow-stone-boulder": {
+      "name": "黄石块"
+    },
+    "yellow-stone-plates": {
+      "name": "黄石地板"
+    },
+    "yellow-stone-vent": {
+      "name": "黄石喷口"
+    },
+    "yellow-stone-wall": {
+      "name": "黄石墙"
+    },
+    "yellowcoral": {
+      "name": "黄珊瑚"
+    }
+  },
+  "names": {
+    "item": {
+      "beryllium": "铍",
+      "blast-compound": "爆炸混合物",
+      "carbide": "碳化物",
+      "coal": "煤炭",
+      "copper": "铜",
+      "dormant-cyst": "休眠囊肿",
+      "fissile-matter": "裂变产物",
+      "graphite": "石墨",
+      "lead": "铅",
+      "metaglass": "钢化玻璃",
+      "oxide": "氧化物",
+      "phase-fabric": "相织布",
+      "plastanium": "塑钢",
+      "pyratite": "硫化物",
+      "sand": "沙",
+      "scrap": "废料",
+      "silicon": "硅",
+      "spore-pod": "孢子荚",
+      "surge-alloy": "巨浪合金",
+      "thorium": "钍",
+      "titanium": "钛",
+      "tungsten": "钨"
+    },
+    "liquid": {
+      "arkycite": "芳油",
+      "coolant": "冷却液",
+      "cryofluid": "冷冻液",
+      "cyanogen": "氰气",
+      "gallium": "镓液",
+      "hydrogen": "氢气",
+      "neoplasm": "瘤液",
+      "nitrogen": "氮气",
+      "oil": "石油",
+      "ozone": "臭氧",
+      "slag": "矿渣",
+      "water": "水"
+    },
+    "unit": {
+      "aegires": "玄武",
+      "alpha": "阿尔法",
+      "anthicus": "天灾",
+      "antumbra": "月影",
+      "arkyid": "毒蛊",
+      "assembly-drone": "装配无人机",
+      "atrax": "毒蛛",
+      "avert": "遮蔽",
+      "beta": "贝塔",
+      "bryde": "戟鲸",
+      "cleroi": "天赐",
+      "collaris": "天帝",
+      "conquer": "领主",
+      "corvus": "死星",
+      "crawler": "爬虫",
+      "cyerce": "江豚",
+      "dagger": "尖刀",
+      "disrupt": "悲怆",
+      "eclipse": "日蚀",
+      "elude": "挣脱",
+      "emanate": "发散",
+      "evoke": "苏醒",
+      "flare": "星辉",
+      "fortress": "堡垒",
+      "gamma": "伽马",
+      "horizon": "天垠",
+      "incite": "策动",
+      "latum": "Latum",
+      "locus": "循迹",
+      "mace": "战锤",
+      "manifold": "货运无人机",
+      "mega": "巨像",
+      "merui": "天守",
+      "minke": "飞鲨",
+      "mono": "独影",
+      "navanax": "龙王",
+      "nova": "新星",
+      "obviate": "消散",
+      "oct": "要塞",
+      "omura": "海神",
+      "oxynoe": "电鳗",
+      "poly": "幻型",
+      "precept": "准绳",
+      "pulsar": "恒星",
+      "quad": "雷霆",
+      "quasar": "耀星",
+      "quell": "遏止",
+      "reign": "王座",
+      "renale": "Renale",
+      "retusa": "潜螺",
+      "risso": "梭鱼",
+      "scepter": "权杖",
+      "sei": "蛟龙",
+      "spiroct": "血蛭",
+      "stell": "围护",
+      "tecta": "天理",
+      "toxopid": "天蝎",
+      "vanquish": "征服",
+      "vela": "灾星",
+      "zenith": "苍穹"
+    }
+  },
+  "folding": "㑯㑔㑳㑇㑶㐹㓨刾㗲𠵾㘚㘎㜄㚯㜏㛣㜢𡞱㠏㟆㠣𫵷㥮㤘㩜㨫㩳㧐㩵擜㺏𤠋䁪𥇢䁻䀥䃮鿎䊷䌶䋙䌺䋚䌻䋹䌿䋻䌾䍦䍠䎱䎬䓣𬜯䙡䙌䜀䜧䝼䞍䡵𫟦䥇䦂䥑鿏䥕𬭯䥱䥾䦛䦶䦟䦷䧢𨸟䮄𫠊䯀䯅䰾鲃䱷䲣䱽䲝䲁鳚䲘鳤䴉鹮丟丢並并乾干亂乱亙亘亞亚佇伫佈布佔占併并來来侖仑侶侣侷局俁俣係系俔伣俠侠俥伡俬私倀伥倆俩倈俫倉仓個个們们倖幸倫伦倲㑈偉伟偑㐽側侧偵侦偽伪傌㐷傑杰傖伧傘伞備备傢家傭佣傯偬傳传傴伛債债傷伤傾倾僂偻僅仅僉佥僑侨僕仆僞伪僤𫢸僥侥僨偾僱雇價价儀仪儁俊儂侬億亿儈侩儉俭儎傤儐傧儔俦儕侪儘尽償偿優优儲储儷俪儸㑩儺傩儻傥儼俨兇凶兌兑兒儿兗兖內内兩两冊册冑胄冪幂凈净凍冻凜凛凱凯別别刪删剄刭則则剋克剎刹剗刬剛刚剝剥剮剐剴剀創创剷铲劃划劄札劇剧劉刘劊刽劌刿劍剑劏㓥劑剂劚㔉勁劲動动務务勛勋勝胜勞劳勢势勣𪟝勩勚勱劢勳勋勵励勸劝勻匀匭匦匯汇匱匮區区協协卹恤卻却卽即厙厍厠厕厤历厭厌厲厉厴厣參参叄叁叢丛吒咤吳吴吶呐呂吕咼呙員员唄呗唸念問问啓启啞哑啟启啢唡喎㖞喚唤喪丧喫吃喬乔單单喲哟嗆呛嗇啬嗊唝嗎吗嗚呜嗩唢嗰𠮶嗶哔嘆叹嘍喽嘓啯嘔呕嘖啧嘗尝嘜唛嘩哗嘮唠嘯啸嘰叽嘵哓嘸呒嘽啴噁恶噓嘘噚㖊噝咝噠哒噥哝噦哕噯嗳噲哙噴喷噸吨噹当嚀咛嚇吓嚌哜嚐尝嚕噜嚙啮嚥咽嚦呖嚧𠰷嚨咙嚮向嚲亸嚳喾嚴严嚶嘤囀啭囁嗫囂嚣囅冁囈呓囉啰囌苏囑嘱囪囱圇囵國国圍围園园圓圆圖图團团垻坝埡垭埨𫭢埰采執执堅坚堊垩堖垴堝埚堯尧報报場场塊块塋茔塏垲塒埘塗涂塚冢塢坞塤埙塵尘塸𫭟塹堑塿𪣻墊垫墜坠墠𫮃墮堕墰坛墳坟墶垯墻墙墾垦壇坛壋垱壎埙壓压壗𡋤壘垒壙圹壚垆壜坛壞坏壟垄壠垅壢坜壩坝壪塆壯壮壺壶壼壸壽寿夠够夢梦夥伙夾夹奐奂奧奥奩奁奪夺奬奖奮奋奼姹妝妆姍姗姦奸娙𫰛娛娱婁娄婦妇婭娅媧娲媯妫媰㛀媼媪媽妈嫋袅嫗妪嫵妩嫺娴嫻娴嫿婳嬀妫嬃媭嬈娆嬋婵嬌娇嬙嫱嬡嫒嬤嬷嬪嫔嬰婴嬸婶孃娘孋㛤孌娈孫孙學学孻𡥧孿孪宮宫寀采寢寝實实寧宁審审寫写寬宽寵宠寶宝將将專专尋寻對对導导尷尴屆届屍尸屓屃屜屉屢屡層层屨屦屬属岡冈峯峰峴岘島岛峽峡崍崃崑昆崗岗崙仑崢峥崬岽嵐岚嵗岁嵽𫶇嵾㟥嶁嵝嶄崭嶇岖嶔嵚嶗崂嶠峤嶢峣嶧峄嶨峃嶮崄嶸嵘嶺岭嶼屿嶽岳巋岿巒峦巔巅巖岩巘𪩘巰巯巹卺帥帅師师帳帐帶带幀帧幃帏幓㡎幗帼幘帻幟帜幣币幫帮幬帱幷并幹干幾几庫库廁厕廂厢廄厩廈厦廎庼廕荫廚厨廝厮廞𫷷廟庙廠厂廡庑廢废廣广廩廪廬庐廳厅弒弑弔吊弳弪張张強强彄𫸩彆别彈弹彌弥彎弯彔录彙汇彠彟彥彦彫雕彲彨彿佛後后徑径從从徠徕復复徵征徹彻恆恒恥耻悅悦悞悮悵怅悶闷悽凄惡恶惱恼惲恽惻恻愛爱愜惬愨悫愴怆愷恺愾忾慄栗態态慍愠慘惨慚惭慟恸慣惯慤悫慪怄慫怂慮虑慳悭慶庆慺㥪慼戚慾欲憂忧憊惫憐怜憑凭憒愦憖慭憚惮憤愤憫悯憮怃憲宪憶忆懇恳應应懌怿懍懔懞蒙懟怼懣懑懤㤽懨恹懲惩懶懒懷怀懸悬懺忏懼惧懾慑戀恋戇戆戔戋戧戗戩戬戰战戱戯戲戏戶户扞捍拋抛拚拼挩捝挱挲挾挟捨舍捫扪捱挨捲卷掃扫掄抡掆㧏掗挜掙挣掛挂採采揀拣揚扬換换揮挥揯搄損损搖摇搗捣搧扇搵揾搶抢摑掴摜掼摟搂摯挚摳抠摶抟摺折摻掺撈捞撏挦撐撑撓挠撝㧑撟挢撣掸撥拨撫抚撲扑撳揿撻挞撾挝撿捡擁拥擄掳擇择擊击擋挡擓㧟擔担據据擠挤擡抬擣捣擬拟擯摈擰拧擱搁擲掷擴扩擷撷擺摆擻擞擼撸擽㧰擾扰攄摅攆撵攏拢攔拦攖撄攙搀攛撺攜携攝摄攢攒攣挛攤摊攪搅攬揽敎教敓敚敗败敘叙敵敌數数斂敛斃毙斆敩斕斓斬斩斷断於于旂旗旣既昇升時时晉晋晛𬀪晝昼暈晕暉晖暐𬀩暘旸暢畅暫暂曄晔曆历曇昙曉晓曏向曖暧曠旷曥𣆐曨昽曬晒書书會会朥𦛨朧胧朮术東东枴拐柵栅柺拐査查桱𣐕桿杆梔栀梘枧梜𬂩條条梟枭梲棁棄弃棊棋棖枨棗枣棟栋棡㭎棧栈棲栖棶梾椏桠椲㭏楊杨楓枫楨桢業业極极榘矩榦干榪杩榮荣榲榅榿桤構构槍枪槓杠槤梿槧椠槨椁槮椮槳桨槶椢槼椝樁桩樂乐樅枞樑梁樓楼標标樞枢樢㭤樣样樧榝樫㭴樳桪樸朴樹树樺桦樿椫橈桡橋桥機机橢椭橫横橯𣓿檁檩檉柽檔档檜桧檟槚檢检檣樯檮梼檯台檳槟檸柠檻槛櫃柜櫍𬃊櫓橹櫚榈櫛栉櫝椟櫞橼櫟栎櫥橱櫧槠櫨栌櫪枥櫫橥櫬榇櫱蘖櫳栊櫸榉櫻樱欄栏欅榉權权欏椤欒栾欓𣗋欖榄欞棂欽钦歎叹歐欧歟欤歡欢歲岁歷历歸归歿殁殘残殞殒殤殇殨㱮殫殚殭僵殮殓殯殡殰㱩殲歼殺杀殻壳殼壳毀毁毆殴毿毵氂牦氈毡氌氇氣气氫氢氬氩氳氲氾泛汎泛汙污決决沒没沖冲況况泝溯洩泄洶汹浹浃浿𬇙涇泾涗涚涼凉淒凄淚泪淥渌淨净淩凌淪沦淵渊淶涞淺浅渙涣減减渢沨渦涡測测渾浑湊凑湋𣲗湞浈湧涌湯汤溈沩準准溝沟溫温溮浉溳涢溼湿滄沧滅灭滌涤滎荥滙汇滬沪滯滞滲渗滷卤滸浒滻浐滾滚滿满漁渔漊溇漍𬇹漚沤漢汉漣涟漬渍漲涨漵溆漸渐漿浆潁颍潑泼潔洁潕𣲘潙沩潚㴋潛潜潤润潯浔潰溃潷滗潿涠澀涩澆浇澇涝澐沄澗涧澠渑澤泽澦滪澩泶澫𬇕澮浍澱淀澾㳠濁浊濃浓濄㳡濆𣸣濕湿濘泞濚溁濛蒙濜浕濟济濤涛濧㳔濫滥濰潍濱滨濺溅濼泺濾滤瀂澛瀅滢瀆渎瀇㲿瀉泻瀋沈瀏浏瀕濒瀘泸瀝沥瀟潇瀠潆瀦潴瀧泷瀨濑瀰弥瀲潋瀾澜灃沣灄滠灑洒灒𪷽灕漓灘滩灙𣺼灝灏灡㳕灣湾灤滦灧滟灩滟災灾為为烏乌烴烃無无煉炼煒炜煙烟煢茕煥焕煩烦煬炀煱㶽熅煴熒荧熗炝熰𬉼熱热熲颎熾炽燀𬊤燁烨燈灯燉炖燒烧燖𬊈燙烫燜焖營营燦灿燬毁燭烛燴烩燶㶶燻熏燼烬燾焘爍烁爐炉爛烂爭争爲为爺爷爾尔牀床牆墙牘牍牴抵牽牵犖荦犛牦犢犊犧牺狀状狹狭狽狈猙狰猶犹猻狲獁犸獃呆獄狱獅狮獎奖獨独獪狯獫猃獮狝獰狞獱㺍獲获獵猎獷犷獸兽獺獭獻献獼猕玀猡現现琱雕琺珐琿珲瑋玮瑒玚瑣琐瑤瑶瑩莹瑪玛瑲玱璉琏璊𫞩璕𬍤璗𬍡璡琎璣玑璦瑷璫珰璯㻅環环璵玙璸瑸璽玺璿璇瓅𬍛瓊琼瓏珑瓔璎瓚瓒瓛𤩽甌瓯甕瓮產产産产畝亩畢毕畫画異异畵画當当疇畴疊叠痙痉痠酸痾疴瘂痖瘋疯瘍疡瘓痪瘞瘗瘡疮瘧疟瘮瘆瘲疭瘺瘘瘻瘘療疗癆痨癇痫癉瘅癒愈癘疠癟瘪癡痴癢痒癤疖癥症癧疬癩癞癬癣癭瘿癮瘾癰痈癱瘫癲癫發发皁皂皚皑皰疱皸皲皺皱盃杯盜盗盞盏盡尽監监盤盘盧卢盪荡眞真眥眦眾众睍𪾢睏困睜睁睞睐瞘眍瞜䁖瞞瞒瞶瞆瞼睑矇蒙矓眬矚瞩矯矫硃朱硜硁硤硖硨砗硯砚碕埼碩硕碭砀碸砜確确碼码碽䂵磑硙磚砖磠硵磣碜磧碛磯矶磽硗磾䃅礄硚礎础礐𬒈礙碍礦矿礪砺礫砾礬矾礱砻祕秘祿禄禍祸禎祯禕祎禡祃禦御禪禅禮礼禰祢禱祷禿秃秈籼稅税稈秆稏䅉稜棱稟禀種种稱称穀谷穇䅟穌稣積积穎颖穠秾穡穑穢秽穩稳穫获穭穞窩窝窪洼窮穷窯窑窵窎窶窭窺窥竄窜竅窍竇窦竈灶竊窃竪竖競竞筆笔筍笋筧笕筴䇲箇个箋笺箏筝箚札節节範范築筑篋箧篔筼篠筿篢𬕂篤笃篩筛篳筚篸𥮾簀箦簍篓簑蓑簞箪簡简簣篑簫箫簹筜簽签簾帘籃篮籅𥫣籌筹籔䉤籙箓籛篯籜箨籟籁籠笼籤签籩笾籪簖籬篱籮箩籲吁粵粤糉粽糝糁糞粪糧粮糰团糲粝糴籴糶粜糹纟糾纠紀纪紂纣紃𬘓約约紅红紆纡紇纥紈纨紉纫紋纹納纳紐纽紓纾純纯紕纰紖纼紗纱紘纮紙纸級级紛纷紜纭紝纴紞𬘘紡纺紬䌷紮扎細细紱绂紲绁紳绅紵纻紹绍紺绀紼绋紿绐絀绌終终絃弦組组絅䌹絆绊絎绗結结絕绝絛绦絝绔絞绞絡络絢绚給给絨绒絪𬘡絰绖統统絲丝絳绛絶绝絹绢絺𫄨綁绑綃绡綄𬘫綆绠綈绨綉绣綌绤綎𬘩綏绥綐䌼綑捆經经綖𫄧綜综綝𬘭綞缍綠绿綡𫟅綢绸綣绻綧𬘯綪𬘬綫线綬绶維维綯绹綰绾綱纲網网綳绷綴缀綵彩綸纶綹绺綺绮綻绽綽绰綾绫綿绵緄绲緇缁緊紧緋绯緑绿緒绪緓绬緔绱緗缃緘缄緙缂線线緝缉緞缎締缔緡缗緣缘緦缌編编緩缓緬缅緯纬緱缑緲缈練练緶缏緹缇緻致緼缊縈萦縉缙縊缢縋缒縐绉縑缣縕缊縗缞縛缚縝缜縞缟縟缛縣县縧绦縫缝縭缡縮缩縯𬙂縱纵縲缧縳䌸縴纤縵缦縶絷縷缕縹缥總总績绩繃绷繅缫繆缪繒缯織织繕缮繚缭繞绕繡绣繢缋繩绳繪绘繫系繭茧繮缰繯缳繰缲繳缴繶𫄷繸䍁繹绎繻𦈡繼继繽缤繾缱繿䍀纁𫄸纆𬙊纇颣纈缬纊纩續续纍累纏缠纓缨纔才纕𬙋纖纤纘缵纜缆缽钵罃䓨罈坛罌罂罎坛罰罚罵骂罷罢羅罗羆罴羈羁羋芈羣群羥羟羨羡義义羶膻習习翫玩翬翚翹翘翽翙耬耧耮耢聖圣聞闻聯联聰聪聲声聳耸聵聩聶聂職职聹聍聽听聾聋肅肃脅胁脈脉脛胫脣唇脩修脫脱脹胀腎肾腖胨腡脶腦脑腫肿腳脚腸肠膃腽膕腘膚肤膞䏝膠胶膢𦝼膩腻膽胆膾脍膿脓臉脸臍脐臏膑臘腊臚胪臟脏臠脔臢臜臥卧臨临臺台與与興兴舉举舊旧舖铺舘馆艙舱艤舣艦舰艫舻艱艰艷艳芻刍苧苎茲兹荊荆莊庄莖茎莢荚莧苋華华菴庵菸烟萇苌萊莱萬万萴荝萵莴葉叶葒荭葤荮葦苇葯药葷荤蒍𫇭蒐搜蒓莼蒔莳蒕蒀蒞莅蒼苍蓀荪蓆席蓋盖蓮莲蓯苁蓴莼蓽荜蔄𬜬蔔卜蔘参蔞蒌蔣蒋蔥葱蔦茑蔭荫蔯𫈟蔿𫇭蕁荨蕆蒇蕎荞蕒荬蕓芸蕕莸蕘荛蕢蒉蕩荡蕪芜蕭萧蕷蓣薀蕰薈荟薊蓟薌芗薑姜薔蔷薘荙薟莶薦荐薩萨薳䓕薴苎薵䓓薹苔薺荠藍蓝藎荩藝艺藥药藪薮藭䓖藴蕴藶苈藹蔼藺蔺蘀萚蘄蕲蘆芦蘇苏蘊蕴蘋苹蘚藓蘞蔹蘟𦻕蘢茏蘭兰蘺蓠蘿萝虆蔂虉𬟁處处虛虚虜虏號号虧亏虯虬蛺蛱蛻蜕蜆蚬蝀𬟽蝕蚀蝟猬蝦虾蝨虱蝸蜗螄蛳螞蚂螢萤螮䗖螻蝼螿螀蟄蛰蟈蝈蟎螨蟣虮蟬蝉蟯蛲蟲虫蟳𫊻蟶蛏蟻蚁蠁蚃蠅蝇蠆虿蠍蝎蠐蛴蠑蝾蠔蚝蠟蜡蠣蛎蠨蟏蠱蛊蠶蚕蠻蛮衆众衊蔑術术衕同衚胡衛卫衝冲袞衮袷夹裊袅裏里補补裝装裡里製制複复褌裈褘袆褲裤褳裢褸褛褻亵襀𫌀襇裥襉裥襏袯襖袄襝裣襠裆襤褴襪袜襬摆襯衬襲袭襴襕覈核見见覎觃規规覓觅視视覘觇覡觋覥觍覦觎親亲覬觊覯觏覲觐覷觑覺觉覽览覿觌觀观觴觞觶觯觸触訁讠訂订訃讣計计訊讯訌讧討讨訏𬣙訐讦訒讱訓训訕讪訖讫託托記记訛讹訝讶訟讼訢䜣訣诀訥讷訩讻訪访設设許许訴诉訶诃診诊註注証证詀𧮪詁诂詆诋詎讵詐诈詒诒詔诏評评詖诐詗诇詘诎詛诅詝𬣞詞词詠咏詡诩詢询詣诣試试詩诗詪𬣳詫诧詬诟詭诡詮诠詰诘話话該该詳详詵诜詷𫍣詼诙詿诖誄诔誅诛誆诓誇夸誌志認认誑诳誒诶誕诞誘诱誚诮語语誠诚誡诫誣诬誤误誥诰誦诵誨诲說说説说誰谁課课誶谇誹诽誼谊誾訚調调諂谄諄谆談谈諉诿請请諍诤諏诹諑诼諒谅諓𬣡論论諗谂諛谀諜谍諝谞諞谝諟𬤊諡谥諢诨諤谔諦谛諧谐諫谏諭谕諮咨諱讳諲𬤇諳谙諴𫍯諶谌諷讽諸诸諺谚諼谖諾诺謀谋謁谒謂谓謄誊謅诌謊谎謎谜謏𫍲謐谧謔谑謖谡謗谤謙谦謚谥講讲謝谢謠谣謡谣謨谟謫谪謬谬謭谫謳讴謹谨謾谩譁哗證证譎谲譏讥譓𬤝譖谮識识譙谯譚谭譜谱譞𫍽譟噪譫谵譭毁譯译議议譴谴護护譸诪譽誉譾谫讀读讅谉變变讋詟讌䜩讎雠讒谗讓让讕谰讖谶讚赞讜谠讞谳谿溪豈岂豎竖豐丰豔艳豬猪豶豮貍狸貓猫貙䝙貝贝貞贞貟贠負负財财貢贡貧贫貨货販贩貪贪貫贯責责貯贮貰贳貲赀貳贰貴贵貶贬買买貸贷貺贶費费貼贴貽贻貿贸賀贺賁贲賂赂賃赁賄贿賅赅資资賈贾賊贼賑赈賒赊賓宾賕赇賙赒賚赉賜赐賞赏賠赔賡赓賢贤賣卖賤贱賦赋賧赕質质賫赍賬账賭赌賰䞐賴赖賵赗賺赚賻赙購购賽赛賾赜贄贽贅赘贇赟贈赠贊赞贋赝贍赡贏赢贐赆贓赃贔赑贖赎贗赝贛赣贜赃赬赪趕赶趙赵趨趋趲趱跡迹踐践踰逾踴踊蹌跄蹕跸蹟迹蹠跖蹣蹒蹤踪蹺跷躂跶躉趸躊踌躋跻躍跃躎䟢躑踯躒跞躓踬躕蹰躚跹躡蹑躥蹿躦躜躪躏軀躯車车軋轧軌轨軍军軏𫐄軑轪軒轩軔轫軛轭軝𬨂軟软軤轷軫轸軲轱軸轴軹轵軺轺軻轲軼轶軾轼較较輄𨐈輅辂輇辁輈辀載载輊轾輋𪨶輒辄輓挽輔辅輕轻輗𫐐輛辆輜辎輝辉輞辋輟辍輥辊輦辇輩辈輪轮輬辌輮𫐓輯辑輳辏輶𬨎輸输輻辐輼辒輾辗輿舆轀辒轂毂轄辖轅辕轆辘轉转轍辙轎轿轔辚轟轰轡辔轢轹轤轳辦办辭辞辮辫辯辩農农迴回逕径這这連连週周進进遊游運运過过達达違违遙遥遜逊遞递遠远遡溯適适遲迟遶绕遷迁選选遺遗遼辽邁迈還还邇迩邊边邏逻邐逦郟郏郵邮鄆郓鄉乡鄒邹鄔邬鄖郧鄧邓鄩𬩽鄭郑鄰邻鄲郸鄳𫑡鄴邺鄶郐鄺邝酇酂酈郦醃腌醖酝醜丑醞酝醟蒏醣糖醫医醬酱醱酦醲𬪩釀酿釁衅釃酾釅酽釋释釐厘釒钅釓钆釔钇釕钌釗钊釘钉釙钋針针釣钓釤钐釦扣釧钏釩钒釴𬬩釵钗釷钍釹钕釺钎釾䥺釿𬬱鈀钯鈁钫鈃钘鈄钭鈅钥鈇𫓧鈈钚鈉钠鈍钝鈎钩鈐钤鈑钣鈒钑鈔钞鈕钮鈞钧鈡钟鈣钙鈥钬鈦钛鈧钪鈮铌鈰铈鈳钶鈴铃鈷钴鈸钹鈹铍鈺钰鈽钸鈾铀鈿钿鉀钾鉅巨鉆钻鉈铊鉉铉鉊𬬿鉋铇鉍铋鉑铂鉕钷鉗钳鉚铆鉛铅鉝𫟷鉞钺鉢钵鉤钩鉥𬬸鉦钲鉧𬭁鉬钼鉭钽鉮𬬹鉳锫鉶铏鉷𫟹鉸铰鉺铒鉻铬鉿铪銀银銃铳銅铜銈𫓯銍铚銑铣銓铨銖铢銘铭銚铫銛铦銜衔銠铑銣铷銥铱銦铟銨铵銩铥銪铕銫铯銬铐銱铞銳锐銶𨱇銷销銹锈銻锑銼锉鋁铝鋃锒鋅锌鋇钡鋌铤鋏铗鋐𬭎鋒锋鋗𫓶鋙铻鋝锊鋟锓鋣铘鋤锄鋥锃鋦锔鋨锇鋩铓鋪铺鋭锐鋮铖鋯锆鋰锂鋱铽鋶锍鋸锯鋹𬬮鋼钢錀𬬭錁锞錄录錆锖錇锫錈锩錏铔錐锥錒锕錕锟錘锤錙锱錚铮錛锛錞𬭚錟锬錠锭錡锜錢钱錤𫓹錦锦錨锚錩锠錫锡錮锢錯错録录錳锰錶表錸铼錼镎鍀锝鍁锨鍃锪鍅钫鍆钔鍇锴鍈锳鍊炼鍋锅鍍镀鍔锷鍘铡鍚钖鍛锻鍠锽鍤锸鍥锲鍩锘鍬锹鍭𬭤鍰锾鍵键鍶锶鍺锗鍼针鍾钟鎂镁鎄锿鎇镅鎊镑鎌镰鎓𬭩鎔镕鎖锁鎘镉鎚锤鎛镈鎝𨱏鎡镃鎢钨鎣蓥鎦镏鎧铠鎩铩鎪锼鎬镐鎭镇鎮镇鎰镒鎲镋鎳镍鎵镓鎶鿔鎸镌鎿镎鏃镞鏇旋鏈链鏌镆鏍镙鏏𬭬鏐镠鏑镝鏗铿鏘锵鏜镗鏝镘鏞镛鏟铲鏡镜鏢镖鏤镂鏨錾鏰镚鏵铧鏷镤鏹镪鏺䥽鏻𬭸鏽锈鐃铙鐄𨱑鐇𫔍鐋铴鐍𫔎鐏𨱔鐐镣鐒铹鐓镦鐔镡鐘钟鐙镫鐝镢鐠镨鐥䦅鐦锎鐧锏鐨镄鐩𬭼鐫镌鐮镰鐯䦃鐲镯鐳镭鐵铁鐶镮鐸铎鐺铛鐽𫟼鐿镱鑄铸鑊镬鑌镔鑑鉴鑒鉴鑔镲鑕锧鑞镴鑠铄鑣镳鑥镥鑪𬬻鑭镧鑰钥鑱镵鑲镶鑷镊鑹镩鑼锣鑽钻鑾銮鑿凿钁镢钂镋長长門门閂闩閃闪閆闫閈闬閉闭開开閌闶閎闳閏闰閑闲閒闲間间閔闵閘闸閡阂閣阁閤合閥阀閨闺閩闽閫阃閬阆閭闾閱阅閲阅閶阊閹阉閻阎閼阏閽阍閾阈閿阌闃阒闆板闇暗闈闱闉𬮱闊阔闋阕闌阑闍阇闐阗闑𫔶闒阘闓闿闔阖闕阙闖闯關关闞阚闠阓闡阐闢辟闤阛闥闼陘陉陝陕陞升陣阵陰阴陳陈陸陆陽阳隉陧隊队階阶隑𬮿隕陨際际隤𬯎隨随險险隮𬯀隯陦隱隐隴陇隸隶隻只雋隽雖虽雙双雛雏雜杂雞鸡離离難难雲云電电霑沾霢霡霧雾霽霁靂雳靄霭靆叇靈灵靉叆靚靓靜静靝靔靦腼靨靥鞏巩鞝绱鞦秋鞽鞒韁缰韃鞑韆千韉鞯韋韦韌韧韍韨韓韩韙韪韜韬韝鞲韞韫韻韵響响頁页頂顶頃顷項项順顺頇顸須须頊顼頌颂頍𫠆頎颀頏颃預预頑顽頒颁頓顿頔𬱖頗颇領领頜颌頠𬱟頡颉頤颐頦颏頫𫖯頭头頮颒頰颊頲颋頴颕頵𫖳頷颔頸颈頹颓頻频頽颓顆颗題题額额顎颚顏颜顒颙顓颛顔颜顗𫖮願愿顙颡顛颠類类顢颟顥颢顧顾顫颤顬颥顯显顰颦顱颅顳颞顴颧風风颭飐颮飑颯飒颱台颳刮颶飓颸飔颺飏颻飖颼飕飀飗飄飘飆飙飈飚飛飞飠饣飢饥飣饤飥饦飩饨飪饪飫饫飭饬飯饭飱飧飲饮飴饴飼饲飽饱飾饰飿饳餃饺餄饸餅饼餈糍餉饷養养餌饵餎饹餏饻餑饽餒馁餓饿餕馂餖饾餗𫗧餘余餚肴餛馄餜馃餞饯餡馅館馆餬糊餱糇餳饧餵喂餶馉餷馇餸𩠌餺馎餼饩餾馏餿馊饁馌饃馍饅馒饈馐饉馑饊馓饋馈饌馔饑饥饒饶饗飨饘𫗴饜餍饞馋饢馕馬马馭驭馮冯馱驮馳驰馴驯馹驲馼𫘜駁驳駃𫘝駉𬳶駐驻駑驽駒驹駓𬳵駔驵駕驾駘骀駙驸駛驶駝驼駟驷駡骂駢骈駪𬳽駭骇駰骃駱骆駸骎駼𬳿駿骏騁骋騂骍騄𫘧騅骓騊𫘦騌骔騍骒騎骑騏骐騑𬴂騖骛騙骗騞𬴃騠𫘨騤骙騧䯄騫骞騭骘騮骝騰腾騱𫘬騵𫘪騶驺騷骚騸骟騾骡驀蓦驁骜驂骖驃骠驄骢驅驱驊骅驌骕驍骁驎𬴊驏骣驕骄驗验驚惊驛驿驟骤驢驴驤骧驥骥驦骦驪骊驫骉骯肮髏髅髒脏體体髕髌髖髋髮发鬆松鬍胡鬚须鬢鬓鬥斗鬧闹鬨哄鬩阋鬮阄鬱郁鬹鬶魎魉魘魇魚鱼魛鱽魟𫚉魢鱾魨鲀魯鲁魴鲂魷鱿魺鲄鮀𬶍鮁鲅鮃鲆鮆𫚖鮈𬶋鮊鲌鮋鲉鮍鲏鮎鲇鮐鲐鮑鲍鮒鲋鮓鲊鮚鲒鮜鲘鮝鲞鮞鲕鮟𩽾鮠𬶏鮡𬶐鮣䲟鮦鲖鮪鲔鮫鲛鮭鲑鮮鲜鮳鲓鮶鲪鮸𩾃鮺鲝鯀鲧鯁鲠鯇鲩鯉鲤鯊鲨鯒鲬鯔鲻鯕鲯鯖鲭鯗鲞鯛鲷鯝鲴鯡鲱鯢鲵鯤鲲鯧鲳鯨鲸鯪鲮鯫鲰鯰鲶鯴鲺鯷鳀鯻𬶟鯽鲫鯿鳊鰁鳈鰂鲗鰃鳂鰆䲠鰈鲽鰉鳇鰊𬶠鰌䲡鰍鳅鰏鲾鰐鳄鰒鳆鰓鳃鰛鳁鰜鳒鰟鳑鰠鳋鰣鲥鰤𫚕鰥鳏鰧䲢鰨鳎鰩鳐鰭鳍鰮鳁鰱鲢鰲鳌鰳鳓鰵鳘鰶𬶭鰷鲦鰹鲣鰺鲹鰻鳗鰼鳛鰾鳔鱀𬶨鱂鳉鱅鳙鱇𩾌鱈鳕鱉鳖鱒鳟鱔鳝鱖鳜鱗鳞鱘鲟鱚𬶮鱝鲼鱟鲎鱠鲙鱣鳣鱤鳡鱧鳢鱨鲿鱭鲚鱯鳠鱲𫚭鱷鳄鱸鲈鱺鲡鳥鸟鳧凫鳩鸠鳬凫鳲鸤鳳凤鳴鸣鳶鸢鳾䴓鴆鸩鴇鸨鴉鸦鴒鸰鴕鸵鴛鸳鴝鸲鴞鸮鴟鸱鴣鸪鴦鸯鴨鸭鴯鸸鴰鸹鴴鸻鴷䴕鴻鸿鴿鸽鵁䴔鵂鸺鵃鸼鵏𬷕鵐鹀鵑鹃鵒鹆鵓鹁鵜鹈鵝鹅鵟𫛭鵠鹄鵡鹉鵪鹌鵬鹏鵮鹐鵯鹎鵰雕鵲鹊鵷鹓鵾鹍鶄䴖鶇鸫鶉鹑鶊鹒鶓鹋鶖鹙鶘鹕鶚鹗鶠𬸘鶡鹖鶥鹛鶩鹜鶪䴗鶬鸧鶯莺鶱𬸣鶲鹟鶴鹤鶹鹠鶺鹡鶻鹘鶼鹣鶿鹚鷀鹚鷁鹢鷂鹞鷄鸡鷉䴘鷊鹝鷓鹧鷖鹥鷗鸥鷙鸷鷚鹨鷟𬸦鷥鸶鷦鹪鷫鹔鷭𬸪鷯鹩鷲鹫鷳鹇鷴鹇鷸鹬鷹鹰鷺鹭鷽鸴鸂㶉鸇鹯鸊䴙鸌鹱鸏鹲鸑𬸚鸕鸬鸘鹴鸚鹦鸛鹳鸝鹂鸞鸾鹵卤鹹咸鹺鹾鹼碱鹽盐麗丽麥麦麩麸麪面麫面麬𤿲麯曲麳𪎌麴曲麵面麼么麽么黃黄黌黉點点黨党黲黪黴霉黶黡黷黩黽黾黿鼋鼂鼌鼉鼍鼕冬鼴鼹齊齐齋斋齎赍齏齑齒齿齔龀齕龁齗龂齘𬹼齙龅齜龇齟龃齠龆齡龄齣出齦龈齧啮齪龊齬龉齮𬺈齯𫠜齲龋齶腭齷龌齼𬺓龍龙龎厐龐庞龑䶮龔龚龕龛龜龟鿁䜤鿓鿒𠁞𠀾𠗣㓆𡃕𠴛𡅏𠲥𡑍𫭼𡑭𡋗𡓾𡋀𡔖𡍣𡞵㛟𡠹㛿𡢃㛠𡮉𡭜𡮣𡭬𡳳𡳃𡻕岁𡾱㟜𢣚𢘝𢶫𢫞𢹿𢬦𣈶暅𣙎㭣𣞻𣘓𣠩𣞎𣠲𣑶𣯶毶𣾷㳢𤁣𣺽𤅶𣷷𤓩𤊰𤪺㻘𤫩㻏𤳸𤳄𥊝𥅿𥌃𥅘𥕥𥐰𥖅𥐯𥗽𬒗𥢢䅪𥸠𥮋𥼽𥹥𦘧𡳒𦣎𦟗𦪙䑽𧜗䘞𧜵䙊𧝞䘛𧟀𧝧𧩙䜥𧵳䞌𧶧䞎𨊰䢀𨊸䢁𨋢䢂𨤻𨤰𨦫䦀𨧀𬭊𨧜䦁𨨏𬭛𨭆𬭶𨭎𬭳𨯅䥿𩞯䭪𩠴𩠠𩣑䯃𩶘䲞𰻞𰻝"
+}
